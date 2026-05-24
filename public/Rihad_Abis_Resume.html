@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rihad Abis - Resume</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 40px 20px; background-color: #fff; }
+        .header { text-align: center; border-bottom: 2px solid #1e293b; padding-bottom: 20px; margin-bottom: 25px; }
+        .name { font-size: 32px; font-weight: 800; color: #0f172a; margin: 0; text-transform: uppercase; letter-spacing: 1px; }
+        .title { font-size: 18px; color: #2563eb; font-weight: 600; margin: 5px 0 15px 0; }
+        .contact { font-size: 14px; color: #64748b; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+        .contact a { color: #64748b; text-decoration: none; }
+        .contact a:hover { color: #2563eb; }
+        .section { margin-bottom: 30px; }
+        .section-title { font-size: 18px; font-weight: 700; color: #0f172a; text-transform: uppercase; border-bottom: 1px solid #e2e8f0; padding-bottom: 5px; margin-bottom: 15px; letter-spacing: 0.5px; }
+        .summary { font-size: 15px; color: #475569; text-align: justify; }
+        .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+        .skill-category font-weight: 600; color: #1e293b; margin-bottom: 5px; font-size: 15px; }
+        .skill-list { color: #475569; font-size: 14px; margin: 0; padding-left: 20px; }
+        .project { margin-bottom: 20px; }
+        .project-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 5px; }
+        .project-title { font-size: 16px; font-weight: 600; color: #0f172a; }
+        .project-tech { font-size: 13px; color: #2563eb; font-weight: 500; }
+        .project-desc { font-size: 14px; color: #475569; margin: 5px 0 0 0; padding-left: 20px; }
+        .edu-header { display: flex; justify-content: space-between; font-size: 15px; font-weight: 600; color: #0f172a; }
+        .edu-meta { display: flex; justify-content: space-between; font-size: 14px; color: #64748b; margin-top: 2px; }
+        @media print { body { padding: 0; } .no-print { display: none; } }
+        .btn-print { display: block; width: fit-content; margin: 0 auto 30px auto; background: #0f172a; color: #fff; border: none; padding: 10px 20px; font-weight: 600; border-radius: 8px; cursor: pointer; font-size: 14px; }
+        .btn-print:hover { background: #1e293b; }
+    </style>
+</head>
+<body>
+
+    <button class="btn-print no-print" onclick="window.print()">🖨️ Save as PDF / Print</button>
+
+    <div class="header">
+        <h1 class="name">Rihad Abis</h1>
+        <div class="title">Software Engineer</div>
+        <div class="contact">
+            <span>📧 <a href="mailto:rihadabibromandrag0n@gmail.com">rihadabibromandrag0n@gmail.com</a></span>
+            <span>🌐 <a href="https://github.com/rihadabib-commits" target="_blank">github.com/rihadabib-commits</a></span>
+            <span>📍 Bangladesh</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Professional Summary</div>
+        <p class="summary">
+            Results-driven and passionate Software Engineer with a solid foundation in Computer Science and hands-on experience building modern, responsive, and scalable web applications. Adept at architecting clean frontend UIs and integrating efficient web solutions using React, Next.js, and modern CSS frameworks. Driven to solve complex technical problems and deliver premium digital experiences.
+        </p>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Technical Skills</div>
+        <div class="skills-grid">
+            <div>
+                <div class="skill-category">Languages & Frameworks</div>
+                <ul class="skill-list">
+                    <li>JavaScript (ES6+)</li>
+                    <li>React.js</li>
+                    <li>Next.js (App Router)</li>
+                </ul>
+            </div>
+            <div>
+                <div class="skill-category">Design & Styling</div>
+                <ul class="skill-list">
+                    <li>Tailwind CSS</li>
+                    <li>HTML5 & CSS3</li>
+                    <li>Responsive Web Design</li>
+                </ul>
+            </div>
+            <div>
+                <div class="skill-category">Tools & Technologies</div>
+                <ul class="skill-list">
+                    <li>Git & GitHub</li>
+                    <li>Vercel Deployment</li>
+                    <li>VS Code, Postman</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Featured Projects</div>
+        
+        <div class="project">
+            <div class="project-header">
+                <span class="project-title">Qurbani Livestock Listing Platform</span>
+                <span class="project-tech">Next.js, Tailwind CSS, React</span>
+            </div>
+            <ul class="project-desc">
+                <li>Developed a dynamic web application for managing and beautifully displaying cattle and goat listings from JSON datasets.</li>
+                <li>Implemented fully interactive custom gallery views with responsive routing and smooth component animations.</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <div class="project-header">
+                <span class="project-title">Tutor Management & Portfolio System</span>
+                <span class="project-tech">React, Next.js, Framer Motion</span>
+            </div>
+            <ul class="project-desc">
+                <li>Built a premium personal portfolio and portal featuring modern animations, dynamic client-side layouts, and optimized asset routing.</li>
+                <li>Successfully integrated fully responsive UI/UX architectures friendly with Tailwind v4 build pipelines.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Education</div>
+        <div class="edu-item">
+            <div class="edu-header">
+                <span>Diploma in Computer Science & Engineering</span>
+                <span>2022 — 2026</span>
+            </div>
+            <div class="edu-meta">
+                <span>Polytechnic Institute</span>
+                <span>Bangladesh</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
