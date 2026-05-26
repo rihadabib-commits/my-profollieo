@@ -65,7 +65,7 @@ const Portfolio = () => {
         ))}
       </div>
 
-      <div className="min-h-[300px]">
+      <div className="min-h-[300]">
         <AnimatePresence mode="wait">
           
           {activeTab === 'projects' && (

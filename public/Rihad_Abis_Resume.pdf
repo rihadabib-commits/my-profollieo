@@ -35,10 +35,10 @@
     <button class="btn-print no-print" onclick="window.print()">🖨️ Save as PDF / Print</button>
 
     <div class="header">
-        <h1 class="name">Rihad Abis</h1>
+        <h1 class="name">Wahid</h1>
         <div class="title">Software Engineer</div>
         <div class="contact">
-            <span>📧 <a href="mailto:rihadabibromandrag0n@gmail.com">rihadabibromandrag0n@gmail.com</a></span>
+            <span>📧 <a href="mailto:rihadabibromandrag0n@gmail.com">rihadabib@gmail.com</a></span>
             <span>🌐 <a href="https://github.com/rihadabib-commits" target="_blank">github.com/rihadabib-commits</a></span>
             <span>📍 Bangladesh</span>
         </div>

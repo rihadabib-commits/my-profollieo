@@ -26,17 +26,17 @@ const About = () => {
         {/* বাম পাশ: ডেসক্রিপশন এবং সিভি বাটন */}
         <div className="flex-1 flex flex-col gap-5">
           <h3 className="text-xl md:text-2xl font-bold text-slate-200 m-0">
-            Hello, I'm <span className="text-blue-400">Wahid</span>
+            Hello, I'm <span className="text-blue-400">RIHAD ABIS</span>
           </h3>
           <p className="text-slate-400 text-sm md:text-base leading-relaxed m-0">
             I am a Software Engineer dedicated to architecting high-performance web solutions and premium digital experiences. I specialize in bridging complex technical requirements with clean UI/UX design, offering scalable full-stack development that exceeds expectations.
           </p>
 
-          {/* সিভি ওপেন ও ডাউনলোডের জন্য আপডেটেড বাটন */}
+          {/* আপডেট করা ডাউনলোড বাটন */}
           <div className="pt-2">
             <a 
-              href="/Rihad_Abis_Resume.html" 
-              target="_blank"
+              href="/Rihad_Abis_Resume.pdf" 
+              download="Rihad_Abis_Resume.pdf"
               className="inline-flex items-center gap-2 bg-[#0f172a] hover:bg-[#1e293b] text-white font-semibold px-6 py-3 rounded-xl border border-[#1e293b] shadow-2xl transition-all text-sm cursor-pointer"
             >
               <Download className="text-cyan-400 w-4 h-4" /> Download CV
@@ -44,7 +44,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* ডান পাশ: ৩টি কাউন্টারカード */}
+        {/* ডান পাশ: ৩টি কাউন্টার কার্ড */}
         <div className="flex-1 w-full grid grid-cols-1 sm:grid-cols-3 gap-4">
           {stats.map((stat) => (
             <motion.div
@@ -66,7 +66,6 @@ const About = () => {
         </div>
 
       </div>
-
     </section>
   );
 };
