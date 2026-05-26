@@ -32,17 +32,18 @@ const About = () => {
             I am a Software Engineer dedicated to architecting high-performance web solutions and premium digital experiences. I specialize in bridging complex technical requirements with clean UI/UX design, offering scalable full-stack development that exceeds expectations.
           </p>
 
-          {/* আপডেট করা ডাউনলোড বাটন */}
           <div className="pt-2">
             <a 
-              href="/Rihad_Abis_Resume.pdf" 
-              download="Rihad_Abis_Resume.pdf"
+              href="/RIHAD_ABIS.pdf" 
+              download="RIHAD_ABIS.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#0f172a] hover:bg-[#1e293b] text-white font-semibold px-6 py-3 rounded-xl border border-[#1e293b] shadow-2xl transition-all text-sm cursor-pointer"
             >
               <Download className="text-cyan-400 w-4 h-4" /> Download CV
             </a>
           </div>
-        </div>
+        </div> {/* <--- এই DIV টি এখানে ক্লোজ করতে হবে! */}
 
         {/* ডান পাশ: ৩টি কাউন্টার কার্ড */}
         <div className="flex-1 w-full grid grid-cols-1 sm:grid-cols-3 gap-4">
